@@ -1,0 +1,75 @@
+body{
+    background-color:beige ;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-family: "Arial","Helvetica",sans-serif;
+    font-size: 200%;
+    font-style: bold;
+}
+h2:hover{
+    color: grey;
+}
+.formulaire{
+    max-width: 850px; /* Largeur maximale */
+    background-color:rgb(159, 112, 49);
+    height: 150%;
+    width: 90%;
+    border: 2px solid blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: larger;
+    border: 20px;
+    margin: 5% auto;
+    padding: 20px;
+}
+
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor:pointer;
+}
+input , textarea ,select{
+    border: 2px solid blanchedalmond;
+    border-radius: 8px;
+    width: 30%;
+    height: 20px;
+    margin-top: 5px;
+    font-size: large;
+
+}
+input:hover, textarea:hover, select:hover {
+    border-color: goldenrod;
+}
+input:focus,textarea:focus,select:focus{
+    box-shadow: 0 0 10px blanchedalmond;
+    outline: none;
+    border-color: darkgoldenrod;
+    
+}
+button{
+    background-color: blanchedalmond;
+    border: 2px ;
+    border-radius: 7px;
+    font-size: 80%;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+
+}
+button:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    transform: scale(1.05);
+
+}
