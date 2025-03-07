@@ -1,0 +1,137 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.cv-container {
+    width: 210mm;
+    height: 297mm;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.beige{
+    background-color: rgb(195, 138, 64);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+#majda{
+    font-size: 250%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+#majda:hover{
+    color: blanchedalmond;
+
+}
+#recherche{
+    font-size: 130%;
+    position: relative;
+    left: 25%;
+    max-width: 70%; /* Limite la largeur pour éviter le dépassement */
+    
+
+}
+#recherche:hover{
+    color: blanchedalmond;
+}
+.cont{
+    display: flex;
+    height:100%; /* Hauteur totale - la hauteur de la partie beige */
+    flex: 1;
+}
+.black{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex: 0.2;
+    padding: 10px;
+   
+    
+}
+.contact{
+    position: relative;
+    top:2%;
+}
+.h1{
+    color:rgb(195, 138, 64) ;
+    font-size: 110%;
+    text-align: center;
+    margin-top: 10px;  /* Ajuste l'espace au-dessus du titre */
+    margin-bottom: 15px; /* Ajuste l'espace en dessous du titre */
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.h1:hover{
+    color: blanchedalmond;
+}
+.blanc{
+    background-color: white;
+    color: black;
+    flex: 0.8; /* Prend tout l'espace restant */
+    padding: 10px;/* espace entre black et blanc */ 
+}
+
+p{
+    text-align: left;
+    margin: 5px 0px; /* Réduit l'espace vertical entre les paragraphes */
+    line-height: 1.4;
+    margin-left: 10px;
+}
+ul{
+    list-style-type: none;
+    position: relative;
+    right: 22%;
+
+}
+ul li::before{
+    content: "✔";
+    margin-right: 10px;  /* Espace entre l'icône et le texte */
+    font-size: 20px;
+    margin-left: 10%; 
+    
+
+}
+.h2{
+    font-size: 110%;
+    margin-top: 10px;  /* Ajuste l'espace au-dessus du titre */
+    margin-bottom: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.h2:hover{
+    color: rgb(195, 138, 64);
+}
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 30px;
+    top: 4%;
+}
+
+.image img {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+}
+.black a {
+    color: white; /* Texte en blanc */
+    text-decoration: none; /* Supprime le soulignement */
+}
